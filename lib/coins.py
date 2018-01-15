@@ -908,6 +908,17 @@ class Komodo(KomodoMixin, EquihashMixin, Coin):
     RPC_PORT = 7771
     REORG_LIMIT = 800
     PEERS = []
+    
+class Koto(Coin):
+    NAME = "Koto"
+    SHORTNAME = "KOTO"
+    NET = "mainnet"
+    TX_COUNT = 47880
+    TX_COUNT_HEIGHT = 47880
+    TX_PER_BLOCK = 2
+    RPC_PORT = 8232
+    REORG_LIMIT = 800
+    PEERS = []
 
 class Monaize(KomodoMixin, EquihashMixin, Coin):
     NAME = "Monaize"
