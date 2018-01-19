@@ -913,10 +913,10 @@ class Koto(Coin):
     NAME = "Koto"
     SHORTNAME = "KOTO"
     NET = "mainnet"
-    TX_COUNT = 47880
-    TX_COUNT_HEIGHT = 47880
+    TX_COUNT = 50000
+    TX_COUNT_HEIGHT = 50020
     TX_PER_BLOCK = 2
-    RPC_PORT = 8232
+    RPC_PORT = 8432
     REORG_LIMIT = 800
     PEERS = []
 
